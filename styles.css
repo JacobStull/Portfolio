@@ -1,0 +1,98 @@
+.title-font {
+    font-size: 40px;
+    color: #790604;
+    font-family: 'Helvetica Neue' sans-serif;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+.title-font-head {
+    font-size: 50px;
+    color: #790604;
+    font-family: 'Helvetica Neue' sans-serif;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+.header.masthead .header-content {
+    position: absolute;
+    top: 60%;
+    padding: 0 50px;
+    
+    
+    transform: translateY(-50%);
+}
+header.masthead .header-content {
+    position: relative;
+    width: 100%;
+    margin-top: 75px;
+    padding: 150px 15px 100px;
+    text-align: left;
+}
+.body {
+    background-image: ("Assets\pccccccccccccccc.jpg");
+    margin: 0;
+    
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    
+    background-color: #fff;
+}
+.text-center {
+    text-align: center!important;
+}
+.skillsHeader {
+    
+    color: #790604;
+    font-family: Helvetica;
+    font-size: 4vw;
+    margin-bottom: 40px;
+    margin-top: 250px;
+}
+.carousel{
+    background: #2f4357;
+    margin-top: 50px;
+}
+.carousel-item{
+    text-align: center;
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.caro {
+    float: left;
+    width:  1120px;
+    height: 300px;
+    object-fit: cover;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon {
+   
+   
+    background-image: none;
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: black;
+  }
+  #contacts{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+  .footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:  #790604;
+    color: white;
+    text-align: center;
+  }
+  #backgroundwrap{
+    background-image: url("Assets/pccccccccccccccc.jpg");
+    background-color: #cccccc;
+  }

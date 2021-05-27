@@ -28,14 +28,11 @@ header.masthead .header-content {
     text-align: left;
 }
 .body {
-    background-image: ("Assets\pccccccccccccccc.jpg");
     margin: 0;
-    
+    background-image: url(Assets/subtlebackground.jpg);
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    
-    background-color: #fff;
 }
 .text-center {
     text-align: center!important;
@@ -46,7 +43,7 @@ header.masthead .header-content {
     font-family: Helvetica;
     font-size: 4vw;
     margin-bottom: 40px;
-    margin-top: 250px;
+    margin-top: 50px;
 }
 .carousel{
     background: #2f4357;
@@ -59,25 +56,9 @@ header.masthead .header-content {
 .caro {
     float: left;
     width:  1120px;
-    height: 300px;
+    height: 700px;
     object-fit: cover;
 }
-.carousel-control-prev-icon,.carousel-control-next-icon {
-   
-   
-    background-image: none;
-}
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 55px;
-  color: black;
-}
-.carousel-control-prev-icon:after {
-    content: '<';
-    font-size: 55px;
-    color: black;
-  }
   #contacts{
     display: block;
     margin-left: auto;
@@ -93,6 +74,25 @@ header.masthead .header-content {
     text-align: center;
   }
   #backgroundwrap{
-    background-image: url("Assets/pccccccccccccccc.jpg");
-    background-color: #cccccc;
+    
+    background-image: url(Assets/subtlebackground.jpg);
   }
+  .header-content-inner{
+      text-shadow: 1px 1px black;
+  }
+  .shadow{
+      text-shadow: 1px 1px black;
+  }
+  .face{
+      display: block;
+      width: 500px;
+      height: 500px;
+      border: hidden;
+      border-radius: 400px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .header-content{
+      background-image: url(Assets/subtlebackground.jpg);
+  }
+ 
